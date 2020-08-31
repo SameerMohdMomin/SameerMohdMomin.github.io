@@ -9,7 +9,10 @@
 		<title>Sameer | Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="contact form example">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="pure.css">
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -87,7 +90,7 @@
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>What we do</h2>
-							
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
@@ -114,8 +117,10 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Sameer Momin</h2>
-									<p>Hello, I'm Sameer Momin a Web developer. I'm in my final year of my Bachelor's Degree in IT. I'm passionate and professional about my work which helps me achieve my targets effectively.</p>
-									
+									<p>Hello, I'm Sameer Momin a software developer. I'm in my final year of my Bachelor's Degree in IT. I'm passionate and professional about my work which helps me achieve my targets effectively.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
 								</div>
 							</div>
 						</section>
@@ -127,29 +132,56 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
+									
+
+
+									
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="m8286409544@gmail.com"
+  action="https://script.google.com/macros/s/AKfycbwVJ6EzN-_W24dGQEQU-8JET0Y2A4b30YcdYbTu/exec">
+    <!-- change the form action to your script url -->
+
+    <div class="form-elements">
+
+		<div class="fields">
+			<div class="field half">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" />
+			</div>
+			<div class="field half">
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email" />
+			</div>
+			<div class="field">
+				<label for="message">Message</label>
+				<textarea name="message" id="message" rows="5"></textarea>
+			</div>
+		</div>
+	
+
+      <button class="button" style="margin-top: 20px;">
+		Send Message</button>
+	
+		</div>
+		
+		
+    
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+      <h2><em>Thanks</em> for contacting us!
+        We will get back to you soon!</h2>
+    </div>
+
+  </form>
+
+									<script data-cfasync="false" type="text/javascript"
+									src="form-submission-handler.js"></script>
 								</section>
+
+
 								<section>
 									<ul class="contact">
 										<li>
@@ -196,6 +228,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		
 
 	</body>
 </html>
+
